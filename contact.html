@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Music World - Contact</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <nav style="left: 0px;">
+    <div class="logo">Music World</div>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="featured.html">Featured Songs</a></li>
+      <li><a href="artists.html">Popular Artists</a></li>
+      <li><a href="albums.html">Albums</a></li>
+      <li><a href="playlists.html">Playlists</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="active" style="margin-right: 60px;">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <h1>Contact Us</h1>
+    <div class="contact-form">
+      <form action="/submit-contact" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Music World. All rights reserved.</p>
+  </footer>
+</body>
+</html>
